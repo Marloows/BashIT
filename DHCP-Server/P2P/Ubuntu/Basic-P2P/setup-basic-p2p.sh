@@ -12,7 +12,7 @@
 
 # that being said this script is meant to be used as a reference on how to setup a dhcp server other an ethernet port
 
-# If you are feeling adventurous and want to use this scrip to automate things, feel free to use it!
+# If you are feeling adventurous and want to use this scrip to automate things, feel free to do so!
 
 # ------------------------------------------------
 
