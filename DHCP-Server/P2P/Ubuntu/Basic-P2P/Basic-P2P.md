@@ -14,6 +14,6 @@ We will be using only the DHCP capability of dnsmasq in this project.
 
 This setup is done on the server device and doesn't need to be repeated.
 
-The server device will be assigned the IP address "192.168.0.1".
+The server device will be assigned the IP address "10.0.0.1".
 
-The connected device will be given the IP "192.168.0.22".
+The connected device will be given the IP "10.0.0.10".
