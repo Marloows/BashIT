@@ -55,7 +55,8 @@ host_ip='1'
 # this range should allow just one IP which gonna be "10.0.0.10"
 # the idea behind this is to make simpler by referring to the "10.0.0.10" address as the other device
 dhcp_range_start='10'
-dhcp_range_end='11'
+dhcp_range_end='10'
+# same end/start works!
 
 # location of the dnsmasq configuration file
 dnsmasq_conf='/etc/dnsmasq.conf'
