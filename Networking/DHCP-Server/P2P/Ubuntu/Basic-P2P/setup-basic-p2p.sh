@@ -51,12 +51,15 @@ network_ip='10.0.0'
 # by host is meant this device which is gonna be the dhcp-server
 host_ip='1'
 
-# because there is usually only one ethernet port on a computer
-# this range should allow just one IP which gonna be "10.0.0.10"
-# the idea behind this is to make simpler by referring to the "10.0.0.10" address as the other device
+#TODO
+#   # because there is usually only one ethernet port on a computer
+#   # this range should allow just one IP which gonna be "10.0.0.10"
+#   # the idea behind this is to make simpler by referring to the "10.0.0.10" address as the other device
+#   # same end/start works!
 dhcp_range_start='10'
-dhcp_range_end='10'
-# same end/start works!
+dhcp_range_end='100'
+# temporary fix to be able to connect multiple devices
+
 
 # location of the dnsmasq configuration file
 dnsmasq_conf='/etc/dnsmasq.conf'
